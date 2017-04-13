@@ -23,6 +23,8 @@ app.post('/todos', (req, res) => {
 app.listen(3000, () => {
     console.log('Started on port 3000');
 });
+
+module.exports = { app };
 // var newTodo = new Todo({
 //     text: 'Cook dinner'
 // });
@@ -44,3 +46,4 @@ app.listen(3000, () => {
 
 // //User
 //email- require, trim, type string, min 1
+//C:\Program Files\MongoDB\Server\3.4\bin>mongod.exe --dbpath /Users/Yan/mongo-data
